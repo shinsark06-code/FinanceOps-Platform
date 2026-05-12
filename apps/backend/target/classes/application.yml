@@ -22,9 +22,3 @@ server:
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
-
-app:
-  jwt:
-    secret: "${JWT_SECRET:your-secret-key-min-32-characters-for-hs512-algorithm}"
-    access-token-expiry: 900000  # 15 minutes in milliseconds
-    refresh-token-expiry: 604800000  # 7 days in milliseconds
